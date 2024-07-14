@@ -74,12 +74,12 @@ const Index = () => {
                     </View>
                 </View>
                 <View style={styles.btnContainer}>
-                    <CustomButton handlePress={() => router.push('/(screens)')}>
+                    {/* <CustomButton handlePress={() => router.push('/(screens)')}>
                         <Text style={styles.textCont}>Start</Text>
                     </CustomButton>
                     <CustomButton handlePress={() => alert("clicked")}>
                         <Text style={styles.textCont}>Resume</Text>
-                    </CustomButton>
+                    </CustomButton> */}
                 </View>
             </View>
         </ScrollView>
@@ -134,11 +134,6 @@ const styles = StyleSheet.create({
         borderWidth: 2,
         padding: 20,
         borderRadius: 10,
-    },
-    button:{
-        backgroundColor: "black",
-        color: "white",
-        padding: 10
     },
     redCont: {
         fontSize: 40,
